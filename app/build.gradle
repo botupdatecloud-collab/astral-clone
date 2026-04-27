@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.astralcore.multispace'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.astralcore.multispace"
+        minSdk 24
+        targetSdk 34
+        // ⚠️ VERSION CONTROL — Update karnakota meka wenas karanna
+        versionCode 1        // GitHub check karanne meka (int)
+        versionName "1.0.0"  // User balanne meka (string)
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        buildConfig true
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // JSON parsing
+    implementation 'org.json:json:20231013'
+    // OkHttp for GitHub API calls
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+}
