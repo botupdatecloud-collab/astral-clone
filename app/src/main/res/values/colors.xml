@@ -1,1 +1,12 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#020818</color>
+    <color name="bg_card">#0d0d35</color>
+    <color name="purple_accent">#6C63FF</color>
+    <color name="cyan_accent">#00D4FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_dim">#5a5a8a</color>
+    <color name="green_wa">#25D366</color>
+    <color name="blue_tg">#2AABEE</color>
+    <color name="red_yt">#FF0000</color>
+</resources>

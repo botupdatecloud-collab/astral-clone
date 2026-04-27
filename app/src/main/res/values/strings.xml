@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astral Clone</string>
+    <string name="update_title">Update Available!</string>
+    <string name="update_now">Update Now</string>
+    <string name="later">Later</string>
+</resources>
